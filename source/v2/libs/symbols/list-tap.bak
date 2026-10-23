@@ -8625,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "list-tap:MountingHole_2.2mm_M2_Pad_Via_copy"
+		(property "Footprint" "list-tap:MountingHole_2.2mm_M2_Pad_Via"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
