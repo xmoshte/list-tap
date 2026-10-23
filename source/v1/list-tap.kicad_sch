@@ -3832,7 +3832,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "PTS815"
+			(property "Footprint" "list-tap:PTS815"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6355,7 +6355,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CVH252009-1R5M:INDC2520X100N"
+			(property "Footprint" "list-tap:INDC2520X100N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7061,10 +7061,10 @@
 		)
 		(uuid "668fbdfb-9d2e-45e0-b366-032398fb2d3d")
 	)
-	(text_box "VBAT MAX = 3.7V\n\nESP32 VREF = 1.1V\n\nVADC_MAX = (120k/(120k + 300k)) x 3.7V = 1.0571V"
+	(text_box "VBAT MAX = 4.2V\n\nESP32 VREF = 1.1V\n\nVADC_MAX = (120k/(120k + 340k)) x 4.2V = 1.096V"
 		(exclude_from_sim no)
 		(at 143.51 229.87 0)
-		(size 55.88 14.1714)
+		(size 55.88 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7332,12 +7332,6 @@
 		(uuid "95be8d00-19b2-4b7b-92ab-4e6fabc6f2f2")
 	)
 	(junction
-		(at 72.39 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96fbedf1-f128-43b4-b7d5-070be116adb9")
-	)
-	(junction
 		(at 485.14 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7414,6 +7408,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e01c305b-a66e-44f0-8962-ebd88a09ea4d")
+	)
+	(junction
+		(at 72.39 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f05b925c-ecd4-40dd-8ba0-1d4e506fd3b5")
 	)
 	(junction
 		(at 86.36 219.71)
@@ -7549,7 +7549,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 222.25) (xy 67.31 222.25)
+			(xy 54.61 222.25) (xy 59.69 222.25)
 		)
 		(stroke
 			(width 0)
@@ -8869,7 +8869,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 219.71) (xy 62.23 219.71)
+			(xy 72.39 219.71) (xy 54.61 219.71)
 		)
 		(stroke
 			(width 0)
@@ -10749,7 +10749,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "340k"
 			(at 116.586 230.378 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10792,7 +10792,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "FRC0402F3003TS"
+		(property "Manufacturer Part Number" "FRC0402F3403TS"
 			(at 105.41 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10804,7 +10804,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC Part #" "C2929999"
+		(property "LCSC Part #" "C2933090"
 			(at 111.76 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -14359,6 +14359,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 59.69 222.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43c6e60b-5fb5-496f-94a4-ab64085e7c4b")
+		(property "Reference" "#PWR067"
+			(at 66.04 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT-"
+			(at 63.5 222.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 59.69 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d820709-ae99-4d8d-9ce8-7823f9e5344f")
+		)
+		(instances
+			(project "list-tap"
+				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+2V5")
 		(at 553.72 140.97 0)
 		(unit 1)
@@ -16866,7 +16945,7 @@
 	)
 	(symbol
 		(lib_id "list-tap:S2B-PH-SM4-TB(LF)(SN)")
-		(at 57.15 220.98 180)
+		(at 49.53 220.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16876,7 +16955,7 @@
 		(dnp no)
 		(uuid "7a3b885e-54e3-45f0-8c76-1c1546937be6")
 		(property "Reference" "P1"
-			(at 55.88 214.884 0)
+			(at 48.26 214.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16886,7 +16965,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 57.15 229.362 0)
+			(at 49.53 229.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16898,7 +16977,7 @@
 			)
 		)
 		(property "Footprint" "list-tap:JST_S2B-PH-SM4-TB"
-			(at 57.15 220.98 0)
+			(at 49.53 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16910,7 +16989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 220.98 0)
+			(at 49.53 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16921,7 +17000,7 @@
 			)
 		)
 		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)"
-			(at 57.15 220.98 0)
+			(at 49.53 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16933,7 +17012,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 57.15 220.98 0)
+			(at 49.53 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16944,7 +17023,7 @@
 			)
 		)
 		(property "LCSC Part #" "C295747"
-			(at 57.15 220.98 0)
+			(at 49.53 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17913,7 +17992,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PTS815"
+		(property "Footprint" "list-tap:PTS815"
 			(at 665.48 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -20205,86 +20284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 67.31 222.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c43dc5a8-3cba-4200-ba99-d80628398e09")
-		(property "Reference" "#PWR033"
-			(at 73.66 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 222.2499 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "058d0771-93c8-42bd-9d09-85f3740834ab")
-		)
-		(instances
-			(project "list-tap"
-				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "list-tap:LED_0402_RED")
 		(at 345.44 80.01 180)
 		(unit 1)
@@ -20417,7 +20416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CVH252009-1R5M:INDC2520X100N"
+		(property "Footprint" "list-tap:INDC2520X100N"
 			(at 416.56 158.75 0)
 			(hide yes)
 			(show_name no)
