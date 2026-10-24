@@ -921,181 +921,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "list-tap:DM-OLED096-636"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 5.842 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "DM-OLED096-636"
-				(at -7.62 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "list-tap:MODULE_DM-OLED096-636"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Manufacturer Part Number" "DM-OLED096-636"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part #" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DM-OLED096-636_0_0"
-				(rectangle
-					(start -1.27 10.16)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "VCC_IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "list-tap:ESP32-C3-WROOM-02-N4"
 			(pin_names
 				(offset 1.016)
@@ -5262,18 +5087,6 @@
 		)
 		(uuid "383a39c1-eb99-4858-8e79-457d562938d1")
 	)
-	(text "OLED"
-		(exclude_from_sim no)
-		(at 313.182 216.154 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "4ef97ce6-4abc-407a-8871-c6ee21e49049")
-	)
 	(text "MCU"
 		(exclude_from_sim no)
 		(at 510.032 35.052 0)
@@ -5440,12 +5253,6 @@
 		(uuid "d08d1402-06f0-439b-bda6-b8c83f7eb8ea")
 	)
 	(junction
-		(at 323.85 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01a5ff05-4a92-4f4c-9914-aa6652a2bd20")
-	)
-	(junction
 		(at 501.65 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5506,22 +5313,10 @@
 		(uuid "460599e6-cbbb-4111-917b-e05583a7bfc0")
 	)
 	(junction
-		(at 346.71 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e5cf88a-6b0f-4fc5-9099-ea557d8b8984")
-	)
-	(junction
 		(at 444.5 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "518be988-9522-45aa-a38f-333c3f39eef9")
-	)
-	(junction
-		(at 334.01 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53f823a1-50dc-4b4e-9d5d-a5b81df4bddc")
 	)
 	(junction
 		(at 298.45 153.67)
@@ -5697,12 +5492,6 @@
 		(color 0 0 0 0)
 		(uuid "f5c8f8f4-5caa-4d5b-8071-426dff1098b6")
 	)
-	(junction
-		(at 334.01 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fde96ec5-550d-49d1-aaad-e902ccea7b80")
-	)
 	(no_connect
 		(at 41.91 158.75)
 		(uuid "1ae21e80-e5f1-450d-874f-048777083f88")
@@ -5781,16 +5570,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 224.79) (xy 323.85 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "051472f4-88be-4cdd-b650-416b3547aceb")
-	)
-	(wire
-		(pts
 			(xy 306.07 90.17) (xy 306.07 102.87)
 		)
 		(stroke
@@ -5861,16 +5640,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 251.46) (xy 346.71 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16d3b458-c3f9-4b1a-892b-167906e5be58")
-	)
-	(wire
-		(pts
 			(xy 72.39 97.79) (xy 74.93 97.79)
 		)
 		(stroke
@@ -5918,16 +5687,6 @@
 			(type default)
 		)
 		(uuid "1d6a66ee-b5cf-42c1-af31-901608079c7a")
-	)
-	(wire
-		(pts
-			(xy 334.01 243.84) (xy 334.01 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dc007ca-b839-46d7-a9a7-89900a49f9a1")
 	)
 	(wire
 		(pts
@@ -5991,7 +5750,7 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 270.51) (xy 441.96 275.59)
+			(xy 358.14 243.84) (xy 358.14 248.92)
 		)
 		(stroke
 			(width 0)
@@ -6108,16 +5867,6 @@
 			(type default)
 		)
 		(uuid "2e26d58e-cb30-4a42-b35a-9f8503ef241a")
-	)
-	(wire
-		(pts
-			(xy 334.01 227.33) (xy 334.01 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e4cb471-af88-4f53-8e97-d5cb30f3f164")
 	)
 	(wire
 		(pts
@@ -6261,26 +6010,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 243.84) (xy 323.85 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4238d700-ca14-4b5a-b68b-ef7c18f6b442")
-	)
-	(wire
-		(pts
-			(xy 334.01 224.79) (xy 334.01 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42910eb7-b342-43c3-9283-30c5c44b45dc")
-	)
-	(wire
-		(pts
 			(xy 585.47 45.72) (xy 585.47 50.8)
 		)
 		(stroke
@@ -6298,16 +6027,6 @@
 			(type default)
 		)
 		(uuid "474e4943-fdcf-4a6b-8806-f01c1e992c0a")
-	)
-	(wire
-		(pts
-			(xy 334.01 248.92) (xy 359.41 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4859d5fb-4727-43f9-9976-63439ee8b47d")
 	)
 	(wire
 		(pts
@@ -6371,7 +6090,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 270.51) (xy 412.75 275.59)
+			(xy 328.93 243.84) (xy 328.93 248.92)
 		)
 		(stroke
 			(width 0)
@@ -6501,23 +6220,13 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 270.51) (xy 384.81 275.59)
+			(xy 300.99 243.84) (xy 300.99 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5b028342-67c4-4056-b919-1435cd4f1077")
-	)
-	(wire
-		(pts
-			(xy 346.71 243.84) (xy 346.71 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e53bb5f-2f12-4dff-b9d5-280ed33e9f06")
 	)
 	(wire
 		(pts
@@ -6538,16 +6247,6 @@
 			(type default)
 		)
 		(uuid "61657ae3-7912-434a-b4ef-aa988d7aa19d")
-	)
-	(wire
-		(pts
-			(xy 346.71 227.33) (xy 346.71 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "620c7c44-fa57-4ef5-8485-0015fb5a4866")
 	)
 	(wire
 		(pts
@@ -6741,16 +6440,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 256.54) (xy 322.58 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77fdf887-bc3c-49b2-9ceb-1e66c7e9c4ce")
-	)
-	(wire
-		(pts
 			(xy 335.28 162.56) (xy 342.9 162.56)
 		)
 		(stroke
@@ -6921,16 +6610,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 248.92) (xy 334.01 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ae9b94-92d2-4c4c-a78a-a8fa8814c180")
-	)
-	(wire
-		(pts
 			(xy 144.78 160.02) (xy 157.48 160.02)
 		)
 		(stroke
@@ -7031,7 +6710,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 270.51) (xy 355.6 275.59)
+			(xy 271.78 243.84) (xy 271.78 248.92)
 		)
 		(stroke
 			(width 0)
@@ -7118,16 +6797,6 @@
 			(type default)
 		)
 		(uuid "a1670611-f28e-407d-addb-3e3c50dc90e0")
-	)
-	(wire
-		(pts
-			(xy 334.01 227.33) (xy 346.71 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1dba8f3-a4b4-4e7f-bcb4-01b6d934ee0f")
 	)
 	(wire
 		(pts
@@ -7278,16 +6947,6 @@
 			(type default)
 		)
 		(uuid "b3eb4870-bdec-4a30-bf02-f7a8184ea45a")
-	)
-	(wire
-		(pts
-			(xy 304.8 232.41) (xy 294.64 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b2f788-2fc7-474a-83e6-1242a7f423b4")
 	)
 	(wire
 		(pts
@@ -7531,16 +7190,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 243.84) (xy 323.85 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d56962ab-e8d3-4da7-8143-596f9e95cdd2")
-	)
-	(wire
-		(pts
 			(xy 335.28 168.91) (xy 361.95 168.91)
 		)
 		(stroke
@@ -7688,16 +7337,6 @@
 			(type default)
 		)
 		(uuid "e65b423c-6149-46e8-9d06-10c229780033")
-	)
-	(wire
-		(pts
-			(xy 323.85 232.41) (xy 314.96 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e66c7068-8179-4941-898c-1dd2912bb2c7")
 	)
 	(wire
 		(pts
@@ -7861,16 +7500,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 251.46) (xy 359.41 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d5bfed-1990-43bb-8b57-79be4fe53a33")
-	)
-	(wire
-		(pts
 			(xy 361.95 147.32) (xy 361.95 149.86)
 		)
 		(stroke
@@ -8018,16 +7647,6 @@
 			(justify left bottom)
 		)
 		(uuid "4958983a-260e-40e1-9af3-e1cec87ce096")
-	)
-	(label "oled_sda"
-		(at 359.41 251.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4a2e1695-fa4d-4bd5-87c5-fde8fc4ccfdd")
 	)
 	(label "vbat_sense"
 		(at 542.29 73.66 180)
@@ -8198,16 +7817,6 @@
 			(justify right bottom)
 		)
 		(uuid "c5d79a5d-2288-4483-94a2-55c5f9a9fe2f")
-	)
-	(label "oled_scl"
-		(at 359.41 248.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d15d6f87-0359-40c4-85f2-1eef23136496")
 	)
 	(label "_usb-p"
 		(at 29.21 151.13 0)
@@ -9949,84 +9558,6 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 334.01 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2405b928-094b-4ce6-898f-13922a6a1cbb")
-		(property "Reference" "#PWR059"
-			(at 334.01 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 334.01 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 334.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77976757-6397-4a24-a459-3c6bca210bfa")
-		)
-		(instances
-			(project "list-tap"
-				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
 		(at 453.39 207.01 0)
 		(unit 1)
 		(body_style 1)
@@ -11244,126 +10775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "list-tap:DM-OLED096-636")
-		(at 304.8 251.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3652b788-52ea-4e6f-81c6-e432c6cf970f")
-		(property "Reference" "U1"
-			(at 311.404 239.776 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PM2.54-1x4PZZ-H5.7"
-			(at 304.8 260.858 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "list-tap:MODULE_DM-OLED096-636"
-			(at 304.8 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 Position Header Connector 0.100 (2.54mm) Through Hole Gold"
-			(at 304.8 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer Part Number" "PM2.54-1x4PZZ-H5.7"
-			(at 304.8 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C55218874"
-			(at 304.8 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 304.8 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c297c24-7b1d-43d0-bf9e-31d589a58a69")
-		)
-		(pin "1"
-			(uuid "17285177-1acd-4831-a601-d390e17ab13d")
-		)
-		(pin "3"
-			(uuid "a3e2554a-5cfd-4aa2-a8a2-af1b7bba0fcd")
-		)
-		(pin "4"
-			(uuid "17090596-6eeb-4d04-8624-23528eaa0a4b")
-		)
-		(instances
-			(project "list-tap"
-				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "list-tap:R0402")
 		(at 361.95 176.53 90)
 		(unit 1)
@@ -12468,86 +11879,6 @@
 			(project "list-tap"
 				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 294.64 232.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51350466-35cd-4c3d-b5db-7e15f540a123")
-		(property "Reference" "#PWR042"
-			(at 288.29 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 290.83 232.4101 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 294.64 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15ce5808-87ff-4ffa-8d6f-0404e9771e95")
-		)
-		(instances
-			(project "list-tap"
-				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14152,7 +13483,7 @@
 	)
 	(symbol
 		(lib_id "list-tap:MountingHole_Pad")
-		(at 441.96 267.97 0)
+		(at 358.14 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14162,7 +13493,7 @@
 		(dnp no)
 		(uuid "79da665f-3dc9-4890-9a14-a1ac2432cb82")
 		(property "Reference" "H3"
-			(at 440.944 262.89 0)
+			(at 357.124 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14173,7 +13504,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 443.484 270.002 0)
+			(at 359.664 243.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14184,7 +13515,7 @@
 			)
 		)
 		(property "Footprint" "list-tap:MountingHole_2.2mm_M2_Pad_Via"
-			(at 441.96 267.97 0)
+			(at 358.14 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14195,7 +13526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 441.96 267.97 0)
+			(at 358.14 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14206,7 +13537,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 441.96 267.97 0)
+			(at 358.14 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14217,7 +13548,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 441.96 267.97 0)
+			(at 358.14 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14627,7 +13958,7 @@
 	)
 	(symbol
 		(lib_id "list-tap:MountingHole_Pad")
-		(at 384.81 267.97 0)
+		(at 300.99 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14637,7 +13968,7 @@
 		(dnp no)
 		(uuid "86fbbfc3-d7e7-4c0e-bbee-82a99978447a")
 		(property "Reference" "H1"
-			(at 383.794 262.89 0)
+			(at 299.974 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14648,7 +13979,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 386.334 270.002 0)
+			(at 302.514 243.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14659,7 +13990,7 @@
 			)
 		)
 		(property "Footprint" "list-tap:MountingHole_2.2mm_M2_Pad_Via"
-			(at 384.81 267.97 0)
+			(at 300.99 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14670,7 +14001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 267.97 0)
+			(at 300.99 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14681,7 +14012,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 384.81 267.97 0)
+			(at 300.99 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14692,7 +14023,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 384.81 267.97 0)
+			(at 300.99 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14996,7 +14327,7 @@
 	)
 	(symbol
 		(lib_id "list-tap:MountingHole_Pad")
-		(at 355.6 267.97 0)
+		(at 271.78 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15006,7 +14337,7 @@
 		(dnp no)
 		(uuid "8d0b69a6-a4d2-4c03-9789-bc92379c1006")
 		(property "Reference" "H4"
-			(at 354.584 262.89 0)
+			(at 270.764 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15017,7 +14348,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 357.124 270.002 0)
+			(at 273.304 243.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15028,7 +14359,7 @@
 			)
 		)
 		(property "Footprint" "list-tap:MountingHole_2.2mm_M2_Pad_Via"
-			(at 355.6 267.97 0)
+			(at 271.78 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15039,7 +14370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 267.97 0)
+			(at 271.78 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15050,7 +14381,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 355.6 267.97 0)
+			(at 271.78 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15061,7 +14392,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 355.6 267.97 0)
+			(at 271.78 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15084,121 +14415,8 @@
 		)
 	)
 	(symbol
-		(lib_id "list-tap:R0402")
-		(at 334.01 238.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "929070d9-06e8-4a9c-a4ab-39eacf454cd9")
-		(property "Reference" "R25"
-			(at 338.328 236.982 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 338.074 240.538 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Footprint" "list-tap:RESC1005X04L"
-			(at 334.01 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor Ceramic 0402"
-			(at 334.01 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0402FR-074K7L"
-			(at 327.66 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC Part #" "C105871"
-			(at 334.01 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 334.01 238.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5957f442-0774-4645-b378-cf6dee28fd18")
-		)
-		(pin "2"
-			(uuid "1abac01d-169c-4434-a9c8-353efa6fd560")
-		)
-		(instances
-			(project "list-tap"
-				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 441.96 275.59 0)
+		(at 358.14 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15209,7 +14427,7 @@
 		(fields_autoplaced yes)
 		(uuid "92909cff-3006-4c3c-814f-4ed82d0314b9")
 		(property "Reference" "#PWR070"
-			(at 441.96 281.94 0)
+			(at 358.14 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15220,7 +14438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 441.9601 279.4 90)
+			(at 358.1401 252.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15232,7 +14450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 441.96 275.59 0)
+			(at 358.14 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15243,7 +14461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 441.96 275.59 0)
+			(at 358.14 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15254,7 +14472,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 441.96 275.59 0)
+			(at 358.14 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15271,119 +14489,6 @@
 			(project "list-tap"
 				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "list-tap:R0402")
-		(at 346.71 238.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "92e4a98f-809d-4e69-91b0-478af8ad8545")
-		(property "Reference" "R26"
-			(at 351.028 236.982 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 350.774 240.538 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Footprint" "list-tap:RESC1005X04L"
-			(at 346.71 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor Ceramic 0402"
-			(at 346.71 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0402FR-074K7L"
-			(at 340.36 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC Part #" "C105871"
-			(at 346.71 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 346.71 238.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b15dd188-6bca-40c3-ac56-105d2236026c")
-		)
-		(pin "2"
-			(uuid "45e0b8c8-4ef3-4046-b590-cea9cb848f53")
-		)
-		(instances
-			(project "list-tap"
-				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -15847,7 +14952,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 384.81 275.59 0)
+		(at 300.99 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15858,7 +14963,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f328584-f15c-434f-934a-fd7c07ff888c")
 		(property "Reference" "#PWR068"
-			(at 384.81 281.94 0)
+			(at 300.99 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15869,7 +14974,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 384.8101 279.4 90)
+			(at 300.9901 252.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15881,7 +14986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 384.81 275.59 0)
+			(at 300.99 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15892,7 +14997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 275.59 0)
+			(at 300.99 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15903,7 +15008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 384.81 275.59 0)
+			(at 300.99 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17019,7 +16124,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 355.6 275.59 0)
+		(at 271.78 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17030,7 +16135,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcc3d1f4-5c0b-411c-8cbd-14e0f37ba0b1")
 		(property "Reference" "#PWR071"
-			(at 355.6 281.94 0)
+			(at 271.78 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17041,7 +16146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.6001 279.4 90)
+			(at 271.7801 252.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17053,7 +16158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.6 275.59 0)
+			(at 271.78 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17064,7 +16169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 275.59 0)
+			(at 271.78 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17075,7 +16180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 355.6 275.59 0)
+			(at 271.78 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17752,119 +16857,6 @@
 			(project "list-tap"
 				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "list-tap:C0402")
-		(at 309.88 232.41 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf356b09-036d-49df-ba9b-2263d283b069")
-		(property "Reference" "C12"
-			(at 313.944 228.854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Value" "100n 50V"
-			(at 302.26 228.854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Footprint" "list-tap:CAPC1005X04L"
-			(at 309.88 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitor Ceramic 0402"
-			(at 309.88 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0402X7R50V104MN"
-			(at 310.388 234.442 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC Part #" "C53084453"
-			(at 309.88 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 309.88 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5b9bd4d-6203-469a-83e9-28ceb250aee7")
-		)
-		(pin "2"
-			(uuid "b2779e77-189f-4648-bc77-96c5befe2ff5")
-		)
-		(instances
-			(project "list-tap"
-				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -18641,86 +17633,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 322.58 256.54 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9d91440-154e-4741-b4f6-94205888f706")
-		(property "Reference" "#PWR043"
-			(at 328.93 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 326.39 256.5399 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.58 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ddfd3b1-7f4d-4634-9ad4-5e1e895ea8d8")
-		)
-		(instances
-			(project "list-tap"
-				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "list-tap:R0402")
 		(at 80.01 97.79 0)
 		(unit 1)
@@ -19030,7 +17942,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 412.75 275.59 0)
+		(at 328.93 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19041,7 +17953,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2f2faf3-f882-40da-8066-c98733c99c68")
 		(property "Reference" "#PWR069"
-			(at 412.75 281.94 0)
+			(at 328.93 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19052,7 +17964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 412.7501 279.4 90)
+			(at 328.9301 252.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19064,7 +17976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 412.75 275.59 0)
+			(at 328.93 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19075,7 +17987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 275.59 0)
+			(at 328.93 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19086,7 +17998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 412.75 275.59 0)
+			(at 328.93 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19109,86 +18021,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 323.85 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4c30ab5-1b7e-44a3-bd1c-eeb9514588e7")
-		(property "Reference" "#PWR041"
-			(at 323.85 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 323.85 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.85 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 323.85 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c845e84-1e71-4b77-8335-f3bad249e549")
-		)
-		(instances
-			(project "list-tap"
-				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "list-tap:MountingHole_Pad")
-		(at 412.75 267.97 0)
+		(at 328.93 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19198,7 +18032,7 @@
 		(dnp no)
 		(uuid "f8a9c938-a906-4f52-8680-4b66c75bc82a")
 		(property "Reference" "H2"
-			(at 411.734 262.89 0)
+			(at 327.914 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19209,7 +18043,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 414.274 270.002 0)
+			(at 330.454 243.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19220,7 +18054,7 @@
 			)
 		)
 		(property "Footprint" "list-tap:MountingHole_2.2mm_M2_Pad_Via"
-			(at 412.75 267.97 0)
+			(at 328.93 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19231,7 +18065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 267.97 0)
+			(at 328.93 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19242,7 +18076,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 412.75 267.97 0)
+			(at 328.93 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19253,7 +18087,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 412.75 267.97 0)
+			(at 328.93 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
