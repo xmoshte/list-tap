@@ -4870,6 +4870,10 @@
 		(uuid "1ae21e80-e5f1-450d-874f-048777083f88")
 	)
 	(no_connect
+		(at 391.16 85.09)
+		(uuid "1ca4da1a-beaf-485e-a415-52885ca54858")
+	)
+	(no_connect
 		(at 391.16 80.01)
 		(uuid "351d4ec0-c63f-400d-b222-ad203255474e")
 	)
@@ -4884,6 +4888,10 @@
 	(no_connect
 		(at 426.72 92.71)
 		(uuid "8ec4a3fd-d8f0-424d-8d16-a2a7b6e5c93f")
+	)
+	(no_connect
+		(at 391.16 82.55)
+		(uuid "998d48e9-8ca3-4656-bfa6-74cee122488a")
 	)
 	(no_connect
 		(at 64.77 171.45)
@@ -5282,16 +5290,6 @@
 			(type default)
 		)
 		(uuid "4412232d-c911-4e0e-9dd0-1085fab1fda8")
-	)
-	(wire
-		(pts
-			(xy 378.46 82.55) (xy 391.16 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "474e4943-fdcf-4a6b-8806-f01c1e992c0a")
 	)
 	(wire
 		(pts
@@ -6395,16 +6393,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 85.09) (xy 391.16 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e96e4995-23c0-47d5-b44c-6607223b3d18")
-	)
-	(wire
-		(pts
 			(xy 250.19 148.59) (xy 257.81 148.59)
 		)
 		(stroke
@@ -6643,16 +6631,6 @@
 		)
 		(uuid "72b3ca7e-9ddf-40d2-8b03-fcddaff6cdd3")
 	)
-	(label "oled_scl"
-		(at 378.46 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7853297e-fd6d-4fdc-b581-351afba3f3b9")
-	)
 	(label "en"
 		(at 334.01 232.41 0)
 		(effects
@@ -6742,16 +6720,6 @@
 			(justify right bottom)
 		)
 		(uuid "c0363bbc-7b26-4649-a0ed-4705cf8e5bf3")
-	)
-	(label "oled_sda"
-		(at 378.46 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0598578-33ff-4c57-8463-5f008e987b53")
 	)
 	(label "led"
 		(at 438.15 80.01 180)
@@ -8085,10 +8053,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "22572314-aa03-4cbc-bfd4-61d1e4b141a1")
 		(property "Reference" "J2"
 			(at 16.256 102.87 0)

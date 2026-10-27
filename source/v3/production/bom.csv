@@ -4,7 +4,7 @@
 "SW1,SW2","SKRKAEE020","Tactile Switch SPST-NO Top Actuated Surface Mount","SKRKAEE020","C115357","2"
 "SW3","PTS815 SJM 250 SMTR LFS","Tactile Switches Tact Switch, 12 VDC, 50 mA, 4.2x3.2, 2.5mm H, 180gf, J leadspp SPST","PTS815 SJM 250 SMTR LFS","C2689510","1"
 "B2,B3","PESD5V5C1BLYL(TP)","PESD5V5C1BL - Extremely low clamping bidirectional ESD protection diode@en-us","PESD5V5C1BLYL(TP)","C54194967","2"
-"J1,J2","HX PH254-01-04-Z-L11.5","4 pins, 1 row, straight, gold plating","HX PH254-01-04-Z-L11.5","C52016392 ","2"
+"J1","HX PH254-01-04-Z-L11.5","4 pins, 1 row, straight, gold plating","HX PH254-01-04-Z-L11.5","C52016392 ","1"
 "D3","GREEN","LED 0402 GREEN SMD","16-213/GHC-YR1S1/3T","C74338","1"
 "U6","ESP32-C3-WROOM-02-N4","WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +85 C","ESP32-C3-WROOM-02-N4","C2934560","1"
 "BT1","BC-2007","coin cell battery holders, cr2450 holder, coin cell retainers","BC-2007","C5556994","1"
