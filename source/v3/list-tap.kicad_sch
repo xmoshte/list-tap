@@ -574,6 +574,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "list-tap:BZT52C3V3S-TP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52C3V3S-TP"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "list-tap:SOD2512X115N"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "BZT52C3V3S-TP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C668900"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BZT52C3V3S-TP_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZT52C3V3S-TP_1_1"
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "list-tap:C0402"
 			(pin_numbers
 				(hide yes)
@@ -4837,6 +5025,12 @@
 		(uuid "1a06d0cd-6e88-4907-83f3-845ccc913b26")
 	)
 	(junction
+		(at 33.02 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b493a18-1134-4049-9f1e-f7dfd084e90e")
+	)
+	(junction
 		(at 349.25 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4847,6 +5041,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "460599e6-cbbb-4111-917b-e05583a7bfc0")
+	)
+	(junction
+		(at 33.02 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4612dfb4-9588-436d-9dd3-d70bcb452d98")
 	)
 	(junction
 		(at 340.36 91.44)
@@ -4909,6 +5109,12 @@
 		(uuid "8bb990da-24ea-45fa-907a-47c3d2b99b39")
 	)
 	(junction
+		(at 292.1 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d92954a-d1c7-4c9c-a66b-940a681a79f8")
+	)
+	(junction
 		(at 257.81 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4925,12 +5131,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fdefeeb-e344-48f6-aa67-f8acdb03001d")
-	)
-	(junction
-		(at 33.02 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7468194-9f66-4409-adce-0acf0defcb62")
 	)
 	(junction
 		(at 306.07 110.49)
@@ -4963,6 +5163,12 @@
 		(uuid "da8f1cba-65ac-499f-9c36-704c21129cc7")
 	)
 	(junction
+		(at 287.02 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd43bcbe-2506-4fae-85c9-579979d117ec")
+	)
+	(junction
 		(at 397.51 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4985,6 +5191,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4108a81-4cc6-459d-ac90-b4988727ef84")
+	)
+	(junction
+		(at 49.53 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f63296e9-3413-4dd8-b6cb-da38b8eeeb54")
 	)
 	(no_connect
 		(at 29.21 171.45)
@@ -5071,6 +5283,26 @@
 			(type default)
 		)
 		(uuid "09add708-1e18-45b0-aa5a-5c6d9f85a2ea")
+	)
+	(wire
+		(pts
+			(xy 33.02 119.38) (xy 39.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4126ca-0996-4afc-9806-380a21acb3c1")
+	)
+	(wire
+		(pts
+			(xy 44.45 119.38) (xy 49.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b28bfc5-2b97-4232-879f-a1bf4ba8efff")
 	)
 	(wire
 		(pts
@@ -5244,6 +5476,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 66.04) (xy 287.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab4c489-4bf2-486b-bdc5-7896c2beb9b9")
+	)
+	(wire
+		(pts
 			(xy 481.33 49.53) (xy 495.3 49.53)
 		)
 		(stroke
@@ -5291,6 +5533,16 @@
 			(type default)
 		)
 		(uuid "2fe0c711-3381-483f-adc8-f44071036584")
+	)
+	(wire
+		(pts
+			(xy 33.02 119.38) (xy 33.02 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30adc13f-79ae-4fb3-a7ce-598823ef00e8")
 	)
 	(wire
 		(pts
@@ -5804,6 +6056,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 124.46) (xy 55.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4d042f-ccdc-4ae8-9e0d-7809787bebe7")
+	)
+	(wire
+		(pts
 			(xy 215.138 185.42) (xy 215.138 190.5)
 		)
 		(stroke
@@ -5864,13 +6126,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 124.46) (xy 33.02 115.57)
+			(xy 33.02 124.46) (xy 33.02 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "854ed3fd-b6de-4075-913e-52d0b20add2f")
+	)
+	(wire
+		(pts
+			(xy 292.1 60.96) (xy 292.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86231461-03ce-4688-8f6c-c809b48721fe")
 	)
 	(wire
 		(pts
@@ -5914,7 +6186,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 124.46) (xy 35.56 124.46)
+			(xy 33.02 124.46) (xy 36.83 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5924,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 63.5) (xy 287.02 68.58)
+			(xy 287.02 63.5) (xy 287.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6244,13 +6516,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 124.46) (xy 50.8 124.46)
+			(xy 46.99 124.46) (xy 49.53 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb12ea12-6e26-42f0-a371-699375877d7b")
+	)
+	(wire
+		(pts
+			(xy 49.53 119.38) (xy 49.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc34081a-7abb-4dd4-b4cc-c3831637a9d7")
 	)
 	(wire
 		(pts
@@ -6264,7 +6546,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 50.8) (xy 295.91 50.8)
+			(xy 287.02 50.8) (xy 292.1 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6321,6 +6603,16 @@
 			(type default)
 		)
 		(uuid "c76a05f0-a798-4c3f-9c8b-c42a30e96c88")
+	)
+	(wire
+		(pts
+			(xy 292.1 66.04) (xy 287.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bed2b6-1d1b-445f-b277-e5238b62cbd2")
 	)
 	(wire
 		(pts
@@ -6411,6 +6703,26 @@
 			(type default)
 		)
 		(uuid "d5bd792f-ffca-410c-8a91-78a865b37b99")
+	)
+	(wire
+		(pts
+			(xy 292.1 50.8) (xy 292.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ffa856-3888-4850-a02e-7c751d79f3f6")
+	)
+	(wire
+		(pts
+			(xy 292.1 50.8) (xy 295.91 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d3da05-5ee9-4f23-9653-5675420a38e1")
 	)
 	(wire
 		(pts
@@ -7249,17 +7561,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 354.33 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "99b7b554-f07d-440d-9823-b9ce4872f7a6")
 		)
@@ -7368,17 +7669,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 447.04 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e2ff5a5b-69c3-4aaf-ac42-6714117392f2")
 		)
@@ -7471,17 +7761,6 @@
 			)
 		)
 		(property "LCSC Part #" "C6119813"
-			(at 177.8 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
 			(at 177.8 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7675,17 +7954,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 215.9 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "D3"
 			(uuid "71583407-81cd-4022-854a-e11173c7cac7")
 		)
@@ -7820,17 +8088,6 @@
 			)
 		)
 		(property "LCSC Part #" "C2934560"
-			(at 408.94 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Position Offset" "0,-3.1"
 			(at 408.94 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8137,17 +8394,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 80.01 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f6968043-b719-4073-a70e-b39a85c3d0e6")
 		)
@@ -8241,17 +8487,6 @@
 		)
 		(property "LCSC Part #" "C60490"
 			(at 349.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 349.25 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8713,17 +8948,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 257.81 160.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6fed034c-ac02-4a27-8b49-a19c8f9d64a4")
 		)
@@ -8828,17 +9052,6 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Field6" ""
-			(at 250.19 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9256,17 +9469,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 257.81 175.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1559555f-c9c1-4b01-a620-7633752d6b4c")
 		)
@@ -9449,17 +9651,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 458.47 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9182d554-54c0-4237-8b80-313f812d51bc")
 		)
@@ -9553,17 +9744,6 @@
 			)
 		)
 		(property "LCSC Part #" "C115357"
-			(at 354.33 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
 			(at 354.33 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -9682,17 +9862,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 481.33 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d53ad030-1a9a-4e45-88a1-2b25a2f95122")
 		)
@@ -9785,17 +9954,6 @@
 			)
 		)
 		(property "LCSC Part #" "C114765"
-			(at 97.79 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
 			(at 97.79 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9989,17 +10147,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 361.95 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "612f830e-e56d-4d99-8d1a-1033355b332b")
 		)
@@ -10172,17 +10319,6 @@
 		)
 		(property "LCSC Part #" "C2909314"
 			(at 306.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 306.07 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10374,17 +10510,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 97.79 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "26174cd7-d390-45c9-9c33-a09a612d63cb")
 		)
@@ -10477,17 +10602,6 @@
 			)
 		)
 		(property "LCSC Part #" "C53084453"
-			(at 461.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
 			(at 461.01 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -10591,17 +10705,6 @@
 			)
 		)
 		(property "LCSC Part #" "C96446"
-			(at 167.64 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
 			(at 167.64 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10877,17 +10980,6 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Field6" ""
-			(at 341.63 240.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11635,17 +11727,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 254 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "36bcd02b-f376-4627-a260-9b88087c6f38")
 		)
@@ -11825,17 +11906,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 243.84 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1308412d-3987-4920-bc1a-859864e8c364")
 		)
@@ -11932,6 +12002,109 @@
 		)
 	)
 	(symbol
+		(lib_id "list-tap:BZT52C3V3S-TP")
+		(at 292.1 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "844287a6-2f62-434b-b738-708c6ec387c6")
+		(property "Reference" "D1"
+			(at 293.624 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52C3V3S-TP"
+			(at 293.37 64.516 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "list-tap:SOD2512X115N"
+			(at 292.1 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 292.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "BZT52C3V3S-TP"
+			(at 292.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C668900"
+			(at 292.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "bec0e556-52e9-4acf-b445-bf1b12c9430d")
+		)
+		(pin "K"
+			(uuid "29384106-b7b1-4b5d-ae0b-6f35a936d318")
+		)
+		(instances
+			(project "list-tap"
+				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "list-tap:R0402")
 		(at 452.12 80.01 180)
 		(unit 1)
@@ -12018,17 +12191,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 452.12 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5c527597-086c-4ceb-8348-e21107bb9996")
 		)
@@ -12100,17 +12262,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 196.85 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
 			(at 196.85 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -12221,17 +12372,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 461.01 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ccbe2346-1d5e-440b-aaf8-94b6dfbfb00d")
 		)
@@ -12330,17 +12470,6 @@
 			)
 		)
 		(property "LCSC Part #" "C53084453"
-			(at 287.02 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
 			(at 287.02 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12502,17 +12631,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 167.64 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
 			(at 167.64 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -12704,17 +12822,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 464.82 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "A"
 			(uuid "2fc254cb-d69b-485d-9a43-c8a7020bbe7c")
 		)
@@ -12822,17 +12929,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field6" ""
-			(at 344.17 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2bbcb638-8623-4a9e-a84c-1ce660184f55")
 		)
@@ -12922,17 +13018,6 @@
 			)
 		)
 		(property "LCSC Part #" "C96446"
-			(at 236.22 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
 			(at 236.22 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13442,17 +13527,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 438.15 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8878ecca-8001-431e-bb38-7d17ed1bf4c8")
 		)
@@ -13546,17 +13620,6 @@
 		)
 		(property "LCSC Part #" "C60490"
 			(at 349.25 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 349.25 213.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13671,17 +13734,6 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "-90"
-			(at -8.89 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "93b5eddd-a30e-4447-a111-f6ac5d7ddcb5")
 		)
@@ -13711,7 +13763,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 124.46 90)
+		(at 55.88 124.46 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13722,7 +13774,7 @@
 		(fields_autoplaced yes)
 		(uuid "bada5dcb-fb6a-4eef-a044-0715ca3ac52c")
 		(property "Reference" "#PWR072"
-			(at 57.15 124.46 0)
+			(at 62.23 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13733,7 +13785,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 124.4599 90)
+			(at 59.69 124.4599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13745,7 +13797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 124.46 0)
+			(at 55.88 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13756,7 +13808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 124.46 0)
+			(at 55.88 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13767,7 +13819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 124.46 0)
+			(at 55.88 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14227,17 +14279,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 180.34 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "00dad278-31c3-4936-8612-3f20488263b7")
 		)
@@ -14319,7 +14360,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer Part Number" "FWP252012P-R47ML"
+		(property "Manufacturer Part Number" "YSMC252008H-R47MB"
 			(at 182.88 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14330,18 +14371,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5179442"
-			(at 182.88 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
+		(property "LCSC Part #" "C46961980"
 			(at 182.88 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14528,17 +14558,6 @@
 		)
 		(property "LCSC Part #" ""
 			(at 80.01 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 80.01 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14879,6 +14898,109 @@
 		)
 	)
 	(symbol
+		(lib_id "list-tap:BZT52C3V3S-TP")
+		(at 41.91 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ddba8bfb-6cc4-4675-8334-486fd7503998")
+		(property "Reference" "D2"
+			(at 38.354 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52C3V3S-TP"
+			(at 43.942 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "list-tap:SOD2512X115N"
+			(at 41.91 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "BZT52C3V3S-TP"
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C668900"
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "K"
+			(uuid "6d22c184-c05c-4b77-afc1-694136ba2595")
+		)
+		(pin "A"
+			(uuid "a650b54b-b572-4939-a164-ee8516059350")
+		)
+		(instances
+			(project "list-tap"
+				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "list-tap:C0402")
 		(at 340.36 81.28 90)
 		(unit 1)
@@ -14959,17 +15081,6 @@
 		)
 		(property "LCSC Part #" "C53084453"
 			(at 340.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 340.36 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15081,17 +15192,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 274.32 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "79b48501-fe14-430f-9469-d9f496aa2251")
 		)
@@ -15187,17 +15287,6 @@
 		)
 		(property "LCSC Part #" "C54194967"
 			(at 223.52 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 223.52 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15368,17 +15457,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 224.79 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8c9485ba-8ba0-4383-85d2-a2e5d23aaca2")
 		)
@@ -15393,7 +15471,7 @@
 	)
 	(symbol
 		(lib_id "list-tap:C0402")
-		(at 40.64 124.46 180)
+		(at 41.91 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15403,7 +15481,7 @@
 		(dnp no)
 		(uuid "fa6046c5-b36c-4dae-9e5b-c8c623960626")
 		(property "Reference" "C18"
-			(at 40.64 119.888 0)
+			(at 38.354 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15413,7 +15491,7 @@
 			)
 		)
 		(property "Value" "100n 50V"
-			(at 40.386 129.286 0)
+			(at 50.038 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15423,7 +15501,7 @@
 			)
 		)
 		(property "Footprint" "list-tap:CAPC1005X04L"
-			(at 40.64 124.46 0)
+			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15434,7 +15512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 124.46 0)
+			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15445,7 +15523,7 @@
 			)
 		)
 		(property "Description" "Capacitor Ceramic 0402"
-			(at 40.64 124.46 0)
+			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15456,7 +15534,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0402X7R50V104MN"
-			(at 41.148 126.492 0)
+			(at 42.418 126.492 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15468,18 +15546,7 @@
 			)
 		)
 		(property "LCSC Part #" "C53084453"
-			(at 40.64 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 40.64 124.46 0)
+			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15582,17 +15649,6 @@
 		)
 		(property "LCSC Part #" "C2933090"
 			(at 306.07 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 306.07 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
