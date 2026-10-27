@@ -4979,7 +4979,7 @@
 		)
 		(uuid "67ef46a1-1138-4909-8e36-5fa615c3f126")
 	)
-	(text_box "  MODE = 1 - Minimum output ripple"
+	(text_box "  MODE = 0 - power saving mode"
 		(exclude_from_sim no)
 		(at 142.24 137.16 0)
 		(size 43.18 3.9483)
