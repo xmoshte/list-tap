@@ -9696,7 +9696,7 @@
 				)
 			)
 		)
-		(property "Value" "470n 5.3A"
+		(property "Value" "470n 5.5A"
 			(at 1.29 1.7 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9730,7 +9730,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "YSMC252008H-R47MB"
+		(property "Manufacturer Part Number" "PCT252010-R47-M"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9743,7 +9743,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C46961980"
+		(property "LCSC Part #" "C54557079"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
