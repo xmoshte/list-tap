@@ -9793,7 +9793,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "list-tap:BAT_BC-2007"
+		(property "Footprint" "list-tap:BAT_BK-880"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,24 +9980,6 @@
 			(pin passive line
 				(at -7.62 0 0)
 				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "S+1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 0 0)
-				(length 5.08)
 				(hide yes)
 				(name ""
 					(effects
@@ -10007,6 +9989,26 @@
 					)
 				)
 				(number "S+2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MY-2450-02_1_0"
+			(pin passive line
+				(at -7.62 0 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "S1+"
 					(effects
 						(font
 							(size 1.016 1.016)
