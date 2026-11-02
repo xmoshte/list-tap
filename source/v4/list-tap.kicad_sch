@@ -5404,6 +5404,12 @@
 		(uuid "145f2016-7596-48ad-bbfe-1b94f635ffa8")
 	)
 	(junction
+		(at 341.63 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b4714d1-e9c7-4fd6-8c2a-fb312d836dcf")
+	)
+	(junction
 		(at 33.02 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5444,6 +5450,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33324390-a112-428d-8838-c25f22c5ec58")
+	)
+	(junction
+		(at 328.93 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36923879-6610-45ca-8ded-250060cde743")
 	)
 	(junction
 		(at 349.25 187.96)
@@ -5570,12 +5582,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "956917fa-f312-409b-8826-2aac34f0f975")
-	)
-	(junction
-		(at 341.63 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95be8d00-19b2-4b7b-92ab-4e6fabc6f2f2")
 	)
 	(junction
 		(at 317.5 67.31)
@@ -6465,6 +6471,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 247.65) (xy 341.63 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4181babb-8415-4144-b901-deea0bbe995b")
+	)
+	(wire
+		(pts
 			(xy 438.15 240.03) (xy 455.93 240.03)
 		)
 		(stroke
@@ -7155,6 +7171,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 265.43) (xy 328.93 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8916bd79-9764-4fee-9a0f-389465a30860")
+	)
+	(wire
+		(pts
 			(xy 33.02 124.46) (xy 36.83 124.46)
 		)
 		(stroke
@@ -7362,6 +7388,16 @@
 			(type default)
 		)
 		(uuid "a30e82bd-a66d-4042-b59a-383f95425c00")
+	)
+	(wire
+		(pts
+			(xy 328.93 247.65) (xy 328.93 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3bb0924-8282-42bd-86d7-ef48a8ee81c7")
 	)
 	(wire
 		(pts
@@ -7705,7 +7741,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 247.65) (xy 341.63 247.65)
+			(xy 303.53 247.65) (xy 328.93 247.65)
 		)
 		(stroke
 			(width 0)
@@ -8284,7 +8320,7 @@
 		(uuid "766be03b-fdae-48c1-8019-cddf4c6ba0c5")
 	)
 	(label "en"
-		(at 334.01 247.65 0)
+		(at 303.53 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13145,7 +13181,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "707ce373-c048-489e-80a2-d0f7eb0b9382")
 		(property "Reference" "J1"
 			(at 293.37 32.258 90)
@@ -16442,6 +16478,86 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 328.93 275.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7fc1c26-88e0-4b6c-8db9-50f90380eebb")
+		(property "Reference" "#PWR058"
+			(at 328.93 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.9301 279.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f27123e1-b209-47a5-8c9d-5212d5e68385")
+		)
+		(instances
+			(project "list-tap"
+				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 420.37 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -17173,6 +17289,119 @@
 			(project "list-tap"
 				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "list-tap:C0402")
+		(at 328.93 260.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed6e4a4d-0100-42b2-b56e-6e615cd8bfda")
+		(property "Reference" "C22"
+			(at 322.58 256.286 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "1u 16V"
+			(at 318.516 263.144 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Footprint" "list-tap:CAPC1005X04L"
+			(at 328.93 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor Ceramic 0402"
+			(at 328.93 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KO5NNNC"
+			(at 330.962 259.842 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC Part #" "C29266"
+			(at 328.93 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 328.93 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f8d7369-6092-41c2-a956-df3d77cd6166")
+		)
+		(pin "2"
+			(uuid "2bcf4e02-737a-4178-a6d4-fcfbbcf03a9e")
+		)
+		(instances
+			(project "list-tap"
+				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
+					(reference "C22")
 					(unit 1)
 				)
 			)
