@@ -246,9 +246,8 @@ For the implementation, I recommend the following:
 
 1. **Confirm the exact LIR2450 cell.** Obtain its datasheet and verify the permitted charge current, discharge current, voltage limits, temperature limits and protection requirements.
 2. **Select the charging arrangement.** Use Option A if ease of charging is the priority; use Option B if minimising PCB cost and area is more important.
-3. **Review the regulator.** Confirm that it supports the full 3.0–4.2 V battery range and the ESP32-C3's peak load. A low-quiescent-current buck-boost is the more robust option for maintaining a 3.3 V rail across the cell's discharge range.
-4. **Add appropriate protection and local capacitance.** Include undervoltage protection, reverse-polarity protection where the cell is removable, and suitable low-ESR bulk capacitance near the ESP32-C3.
-5. **Validate the design on hardware.** Measure the battery voltage and 3.3 V rail with an oscilloscope during ESP-NOW transmission, including at low state of charge. Confirm that the device does not brown out or reset.
-6. **Measure actual runtime.** Record sleep current, boot current, transmission current and event frequency on the completed design, then update the runtime estimate using measured values.
+3. **Add appropriate protection and local capacitance.** Include undervoltage protection, reverse-polarity protection where the cell is removable, and suitable low-ESR bulk capacitance near the ESP32-C3.
+4. **Validate the design on hardware.** Measure the battery voltage and 3.3 V rail with an oscilloscope during ESP-NOW transmission, including at low state of charge. Confirm that the device does not brown out or reset.
+5. **Measure actual runtime.** Record sleep current, boot current, transmission current and event frequency on the completed design, then update the runtime estimate using measured values.
 
 In summary, **the LIR2450 is the more practical coin-cell option for this application**, while the final choice between integrated and external charging should be based on the intended user experience and the project's BoM and PCB constraints.
