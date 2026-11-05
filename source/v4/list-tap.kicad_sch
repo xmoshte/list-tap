@@ -10,6 +10,205 @@
 		(rev "2nd")
 	)
 	(lib_symbols
+		(symbol "PXTE010M477E060STU_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -5.08 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PXTE010M477E060STU"
+				(at -5.08 -5.088 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "list-tap:PXTE010M477E060STU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/6TPE220MAP_Panasonic.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "220uF SMD Solid Polymer Tantalum Capacitor, 6.3 V dc +/-20%, POSCAP Series | Panasonic Electronic Components 6TPE220MAP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer Part Number" "PXTE010M477E060STU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C724264"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PXTE010M477E060STU_1_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.713 -1.532)
+					(end -2.824 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.332 -1.913)
+					(end -3.205 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 2.54) (xy -2.032 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -2.54)
+					(mid -1.0549 0)
+					(end -0.254 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SKRKAEE020_1"
 			(pin_names
 				(offset 0.254)
@@ -3529,6 +3728,205 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "list-tap:PXTE010M477E060STU"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -5.08 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PXTE010M477E060STU"
+				(at -5.08 -5.088 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "list-tap:PXTE010M477E060STU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/6TPE220MAP_Panasonic.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "220uF SMD Solid Polymer Tantalum Capacitor, 6.3 V dc +/-20%, POSCAP Series | Panasonic Electronic Components 6TPE220MAP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer Part Number" "PXTE010M477E060STU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C724264"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PXTE010M477E060STU_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.713 -1.532)
+					(end -2.824 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.332 -1.913)
+					(end -3.205 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 2.54) (xy -2.032 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -2.54)
+					(mid -1.0549 0)
+					(end -0.254 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "list-tap:R0402"
 			(pin_numbers
 				(hide yes)
@@ -5404,6 +5802,18 @@
 		(uuid "145f2016-7596-48ad-bbfe-1b94f635ffa8")
 	)
 	(junction
+		(at 241.3 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "151a82a2-7f6a-43e1-8c4d-974a3643c328")
+	)
+	(junction
+		(at 226.06 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18a2a7ae-edec-4079-aadd-0500f19d4d4d")
+	)
+	(junction
 		(at 341.63 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5488,12 +5898,6 @@
 		(uuid "52246864-e9f4-43db-ab9b-e2e24b290f64")
 	)
 	(junction
-		(at 182.88 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53b00b86-83fc-44ba-81fc-e3b7edf3e47a")
-	)
-	(junction
 		(at 194.31 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5554,10 +5958,10 @@
 		(uuid "7cce6ea3-f80a-4e51-b9ae-dd9a5e2c1d2a")
 	)
 	(junction
-		(at 226.06 68.58)
+		(at 170.18 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "83018743-0852-485c-9630-85164b351e6f")
+		(uuid "7f8579ed-5b0f-4586-b471-a4967e847301")
 	)
 	(junction
 		(at 349.25 237.49)
@@ -5626,6 +6030,12 @@
 		(uuid "ab3b31c1-16cf-4c0f-8e94-8829a77bc850")
 	)
 	(junction
+		(at 204.47 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf119bb-8990-4672-b1ad-1fb7513fb8f7")
+	)
+	(junction
 		(at 379.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5642,12 +6052,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4c50577-f702-4ba5-a30f-954d95d0899b")
-	)
-	(junction
-		(at 204.47 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4cc4766-cc64-44be-b6a7-e94a39dfe159")
 	)
 	(junction
 		(at 415.29 123.19)
@@ -5678,6 +6082,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dec16a92-f11d-4f54-a917-ae5ef4507677")
+	)
+	(junction
+		(at 182.88 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df0aca05-5903-460c-a548-b2e95f98e0b0")
 	)
 	(junction
 		(at 287.02 50.8)
@@ -5831,16 +6241,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 63.5) (xy 204.47 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "010071aa-1d36-40c8-a613-7f127ecbbd4c")
-	)
-	(wire
-		(pts
 			(xy 458.47 30.48) (xy 458.47 34.29)
 		)
 		(stroke
@@ -5871,7 +6271,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 57.15) (xy 204.47 63.5)
+			(xy 204.47 44.45) (xy 204.47 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5978,6 +6378,16 @@
 			(type default)
 		)
 		(uuid "0e5e4473-cbd2-403c-8b83-8a84ee4410c4")
+	)
+	(wire
+		(pts
+			(xy 241.3 68.58) (xy 255.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f02f069-4c60-4cce-a94d-573d12cf30ab")
 	)
 	(wire
 		(pts
@@ -6198,16 +6608,6 @@
 			(type default)
 		)
 		(uuid "25be02af-9558-4aa3-8f12-cbc20223ae82")
-	)
-	(wire
-		(pts
-			(xy 165.1 68.58) (xy 151.13 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2603a681-677a-4fc8-bd84-d15effe2bb3c")
 	)
 	(wire
 		(pts
@@ -6441,13 +6841,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 74.93) (xy 182.88 68.58)
+			(xy 170.18 68.58) (xy 170.18 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d5984bb-fdf8-453f-9756-a68f95836f11")
+		(uuid "3f09b5e1-a614-40dc-ba56-d847059adba6")
 	)
 	(wire
 		(pts
@@ -6631,6 +7031,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 87.63) (xy 241.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c8036c-034c-4eb3-95c3-2f7e685794b8")
+	)
+	(wire
+		(pts
 			(xy 379.73 100.33) (xy 374.65 100.33)
 		)
 		(stroke
@@ -6751,6 +7161,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 50.8) (xy 204.47 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6796d5c7-0aea-480b-b8b1-594c66e68b66")
+	)
+	(wire
+		(pts
 			(xy 379.73 48.26) (xy 384.81 48.26)
 		)
 		(stroke
@@ -6798,6 +7218,16 @@
 			(type default)
 		)
 		(uuid "6b410bf0-b9a1-4a69-84ba-64bf04c10e56")
+	)
+	(wire
+		(pts
+			(xy 204.47 50.8) (xy 204.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b459f15-429d-4af3-a33d-8224da8f59f2")
 	)
 	(wire
 		(pts
@@ -7071,6 +7501,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 91.44) (xy 170.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83001602-7083-44ea-ba7d-d133e3a80d34")
+	)
+	(wire
+		(pts
 			(xy 204.47 68.58) (xy 226.06 68.58)
 		)
 		(stroke
@@ -7121,7 +7561,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 68.58) (xy 257.81 68.58)
+			(xy 265.43 68.58) (xy 274.32 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7218,16 +7658,6 @@
 			(type default)
 		)
 		(uuid "8d245699-0b9b-4d43-97b9-8879eefbefd6")
-	)
-	(wire
-		(pts
-			(xy 204.47 63.5) (xy 204.47 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed841fa-de25-4876-9d4e-fa842e750164")
 	)
 	(wire
 		(pts
@@ -7331,7 +7761,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 68.58) (xy 175.26 68.58)
+			(xy 182.88 68.58) (xy 170.18 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7538,6 +7968,16 @@
 			(type default)
 		)
 		(uuid "b09222a2-7f36-4200-a674-ee6b35a461ec")
+	)
+	(wire
+		(pts
+			(xy 241.3 68.58) (xy 241.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09e3a47-efe4-434d-a264-a140e0fe4dec")
 	)
 	(wire
 		(pts
@@ -7801,6 +8241,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 68.58) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceba8410-6e4e-4d9b-b04c-cfaba6fad524")
+	)
+	(wire
+		(pts
 			(xy 440.69 80.01) (xy 448.31 80.01)
 		)
 		(stroke
@@ -7911,6 +8361,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 68.58) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1057c5-3bbe-470e-8826-4f784bbf976f")
+	)
+	(wire
+		(pts
 			(xy 102.87 104.14) (xy 125.73 104.14)
 		)
 		(stroke
@@ -7921,7 +8381,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 68.58) (xy 233.68 68.58)
+			(xy 226.06 68.58) (xy 241.3 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7938,6 +8398,16 @@
 			(type default)
 		)
 		(uuid "de8a0a13-0290-4b31-aa2d-9b891c9eccd4")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea3170a-723f-451a-a36a-2bdae1225352")
 	)
 	(wire
 		(pts
@@ -8559,6 +9029,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 478.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "2f3f3b0b-bb18-481f-b2ab-a8dba4399118")
 		)
@@ -8912,6 +9393,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 354.33 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "99b7b554-f07d-440d-9823-b9ce4872f7a6")
 		)
@@ -9021,6 +9513,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 177.8 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 177.8 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9225,6 +9728,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 215.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "D3"
 			(uuid "71583407-81cd-4022-854a-e11173c7cac7")
 		)
@@ -9380,6 +9894,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 80.01 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f6968043-b719-4073-a70e-b39a85c3d0e6")
 		)
@@ -9483,6 +10008,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 349.25 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 349.25 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -9597,6 +10133,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 359.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 359.41 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9723,6 +10270,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 21.59 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "01"
 			(uuid "5b553fff-d19e-4b2b-b3f9-a655269fddaa")
 		)
@@ -9746,7 +10304,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 68.58 270)
+		(at 137.16 68.58 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9758,7 +10316,7 @@
 		(fields_autoplaced yes)
 		(uuid "22bcb809-9690-4f40-b395-c68ac3e7fe1f")
 		(property "Reference" "#PWR075"
-			(at 144.78 68.58 0)
+			(at 130.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9769,7 +10327,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 68.5799 90)
+			(at 133.35 68.5799 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9781,7 +10339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 68.58 0)
+			(at 137.16 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +10350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 68.58 0)
+			(at 137.16 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9803,7 +10361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 68.58 0)
+			(at 137.16 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9820,6 +10378,86 @@
 			(project "list-tap"
 				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23f3e715-71f1-4f15-a9e1-a28607a74450")
+		(property "Reference" "#PWR063"
+			(at 241.3 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3001 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce2ef8f5-ba0a-4cc2-b1b2-c94dcd48ec75")
+		)
+		(instances
+			(project "list-tap"
+				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10081,6 +10719,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 257.81 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6fed034c-ac02-4a27-8b49-a19c8f9d64a4")
 		)
@@ -10188,6 +10837,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 250.19 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 250.19 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -10624,6 +11284,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 257.81 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1559555f-c9c1-4b01-a620-7633752d6b4c")
 		)
@@ -10807,6 +11478,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 458.47 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 458.47 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -11012,6 +11694,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 354.33 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "56efa591-eaba-4174-a64a-becd0d7f76e0")
 		)
@@ -11131,6 +11824,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 481.33 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d53ad030-1a9a-4e45-88a1-2b25a2f95122")
 		)
@@ -11234,6 +11938,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 97.79 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 97.79 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11428,6 +12143,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 339.09 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 339.09 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -11713,6 +12439,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 317.5 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b77e40f8-c991-4dc2-809f-497c28e7048f")
 		)
@@ -11816,6 +12553,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 306.07 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 306.07 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -12179,6 +12927,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 97.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26174cd7-d390-45c9-9c33-a09a612d63cb")
 		)
@@ -12292,6 +13051,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 461.01 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0872fc8f-f447-4789-81b1-dcae26bda575")
 		)
@@ -12309,7 +13079,7 @@
 	)
 	(symbol
 		(lib_id "list-tap:C0603")
-		(at 170.18 68.58 0)
+		(at 152.4 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12320,7 +13090,7 @@
 		(dnp no)
 		(uuid "615835c1-cd5c-491d-99fc-c92c2457a63d")
 		(property "Reference" "C12"
-			(at 170.18 63.246 0)
+			(at 152.4 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12330,7 +13100,7 @@
 			)
 		)
 		(property "Value" "10u 25V"
-			(at 170.18 72.898 0)
+			(at 152.4 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12340,7 +13110,7 @@
 			)
 		)
 		(property "Footprint" "list-tap:CAPC1608X06L"
-			(at 170.18 68.58 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12351,7 +13121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 68.58 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12362,7 +13132,7 @@
 			)
 		)
 		(property "Description" "Capacitor Ceramic 0603"
-			(at 170.18 68.58 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12373,7 +13143,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A106MA8NRNC"
-			(at 170.688 66.548 0)
+			(at 152.908 66.548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12385,7 +13155,7 @@
 			)
 		)
 		(property "LCSC Part #" "C96446"
-			(at 170.18 68.58 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12396,7 +13166,18 @@
 			)
 		)
 		(property "Field6" ""
-			(at 170.18 68.58 0)
+			(at 152.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12764,6 +13545,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 341.63 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5d5ef5b0-ff6a-4e88-92a6-5ab6933f74a6")
 		)
@@ -12771,6 +13563,124 @@
 			(project "list-tap"
 				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PXTE010M477E060STU_1")
+		(lib_id "list-tap:PXTE010M477E060STU")
+		(at 170.18 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67c209bd-6e52-4faa-a111-de610a1a1c2b")
+		(property "Reference" "C1"
+			(at 164.338 84.582 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u 10V"
+			(at 155.956 91.948 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "list-tap:PXTE010M477E060STU"
+			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/6TPE220MAP_Panasonic.pdf"
+			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "220uF SMD Solid Polymer Tantalum Capacitor, 6.3 V dc +/-20%, POSCAP Series | Panasonic Electronic Components 6TPE220MAP"
+			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part Number" "PXTE010M477E060STU"
+			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C724264"
+			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
+			(at 170.18 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f051ec73-de83-44fb-9f55-908ded9faf04")
+		)
+		(pin "1"
+			(uuid "6b9ebabd-9696-4977-a79b-67bd31c2fd64")
+		)
+		(instances
+			(project "list-tap"
+				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13094,7 +14004,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 68.58 90)
+		(at 274.32 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13105,7 +14015,7 @@
 		(fields_autoplaced yes)
 		(uuid "6efcf283-e50f-41a2-a104-88d9e299b11f")
 		(property "Reference" "#PWR061"
-			(at 264.16 68.58 0)
+			(at 280.67 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13116,7 +14026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 68.5799 90)
+			(at 278.13 68.5799 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13128,7 +14038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 68.58 0)
+			(at 274.32 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13139,7 +14049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 68.58 0)
+			(at 274.32 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13150,7 +14060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 68.58 0)
+			(at 274.32 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13167,6 +14077,87 @@
 			(project "list-tap"
 				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1dd78c-e777-4dbf-962c-3723391da38e")
+		(property "Reference" "#PWR085"
+			(at 170.18 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.1799 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78cbee5b-982f-4c1e-a311-50a3880daec1")
+		)
+		(instances
+			(project "list-tap"
+				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -13263,6 +14254,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 300.99 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 300.99 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -13382,6 +14384,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 466.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 466.09 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13644,6 +14657,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 254 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36bcd02b-f376-4627-a260-9b88087c6f38")
 		)
@@ -13834,6 +14858,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 243.84 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1308412d-3987-4920-bc1a-859864e8c364")
 		)
@@ -13948,6 +14983,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 292.1 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "bec0e556-52e9-4acf-b445-bf1b12c9430d")
 		)
@@ -14030,6 +15076,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 196.85 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 196.85 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -14144,6 +15201,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 303.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 303.53 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14445,6 +15513,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 461.01 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ccbe2346-1d5e-440b-aaf8-94b6dfbfb00d")
 		)
@@ -14564,6 +15643,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 287.02 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55e9d81d-99c1-4e2e-9ff1-ed99082e6858")
 		)
@@ -14646,6 +15736,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 167.64 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 167.64 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -14931,6 +16032,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 344.17 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2bbcb638-8623-4a9e-a84c-1ce660184f55")
 		)
@@ -14945,7 +16057,7 @@
 	)
 	(symbol
 		(lib_id "list-tap:C0603")
-		(at 238.76 68.58 0)
+		(at 260.35 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14955,7 +16067,7 @@
 		(dnp no)
 		(uuid "9c359f07-d3c4-4bc8-a6d7-c4eab88fb881")
 		(property "Reference" "C9"
-			(at 238.76 63.246 0)
+			(at 260.35 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14965,7 +16077,7 @@
 			)
 		)
 		(property "Value" "10u 25V"
-			(at 238.76 72.898 0)
+			(at 260.35 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14975,7 +16087,7 @@
 			)
 		)
 		(property "Footprint" "list-tap:CAPC1608X06L"
-			(at 238.76 68.58 0)
+			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14986,7 +16098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 68.58 0)
+			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14997,7 +16109,7 @@
 			)
 		)
 		(property "Description" "Capacitor Ceramic 0603"
-			(at 238.76 68.58 0)
+			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15008,7 +16120,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A106MA8NRNC"
-			(at 238.252 66.548 0)
+			(at 259.842 66.548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15020,7 +16132,7 @@
 			)
 		)
 		(property "LCSC Part #" "C96446"
-			(at 238.76 68.58 0)
+			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15031,7 +16143,18 @@
 			)
 		)
 		(property "Field6" ""
-			(at 238.76 68.58 0)
+			(at 260.35 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
+			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15631,6 +16754,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 438.15 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8878ecca-8001-431e-bb38-7d17ed1bf4c8")
 		)
@@ -15656,7 +16790,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b7000732-123f-40e4-a86d-09e687dd5bfa")
 		(property "Reference" "BT1"
 			(at 208.28 84.9629 90)
@@ -15670,7 +16803,7 @@
 			)
 		)
 		(property "Value" "MY-2450-02"
-			(at 208.28 87.5029 90)
+			(at 208.026 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15738,6 +16871,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 204.47 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 204.47 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -15864,6 +17008,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 349.25 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce54b328-642c-46da-91f6-409c55b7b053")
 		)
@@ -15970,6 +17125,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at -8.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at -8.89 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -16089,7 +17255,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 199.39 63.5 90)
+		(at 212.09 50.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16100,7 +17266,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc2d243b-e06a-42f2-8b28-68dcc03c4def")
 		(property "Reference" "#FLG01"
-			(at 197.485 63.5 0)
+			(at 213.995 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16111,7 +17277,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 195.58 63.4999 90)
+			(at 215.9 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16122,7 +17288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 63.5 0)
+			(at 212.09 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16133,7 +17299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 63.5 0)
+			(at 212.09 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16144,7 +17310,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 199.39 63.5 0)
+			(at 212.09 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16259,7 +17425,7 @@
 		(dnp no)
 		(uuid "c4858cc3-6b3b-438b-92ff-e16281c5b7e0")
 		(property "Reference" "B3"
-			(at 176.53 81.026 90)
+			(at 175.26 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16270,12 +17436,12 @@
 			)
 		)
 		(property "Value" "PESD5V5C1BLYL(TP)"
-			(at 176.022 88.392 90)
+			(at 201.93 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.524 1.524)
 				)
 				(justify right)
 			)
@@ -16337,6 +17503,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 182.88 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 182.88 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -16451,6 +17628,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 182.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 182.88 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -16737,6 +17925,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 80.01 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eae05538-2779-47c3-8cb3-3186660f89d0")
 		)
@@ -16832,7 +18031,7 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 204.47 57.15 0)
+		(at 204.47 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16843,7 +18042,7 @@
 		(fields_autoplaced yes)
 		(uuid "d29ae021-0e31-4167-a8f8-c73207ebcc55")
 		(property "Reference" "#PWR046"
-			(at 204.47 60.96 0)
+			(at 204.47 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16854,7 +18053,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 204.47 52.07 0)
+			(at 204.47 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16864,7 +18063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 57.15 0)
+			(at 204.47 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16875,7 +18074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 57.15 0)
+			(at 204.47 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16886,7 +18085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 204.47 57.15 0)
+			(at 204.47 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17088,6 +18287,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "K"
 			(uuid "6d22c184-c05c-4b77-afc1-694136ba2595")
 		)
@@ -17201,6 +18411,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 274.32 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79b48501-fe14-430f-9469-d9f496aa2251")
 		)
@@ -17211,6 +18432,123 @@
 			(project "list-tap"
 				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "list-tap:PXTE010M477E060STU")
+		(at 241.3 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e58280b4-cbd9-41b1-b538-e71226d1e41e")
+		(property "Reference" "C2"
+			(at 244.094 80.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u 10V"
+			(at 244.602 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "list-tap:PXTE010M477E060STU"
+			(at 241.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/6TPE220MAP_Panasonic.pdf"
+			(at 241.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "220uF SMD Solid Polymer Tantalum Capacitor, 6.3 V dc +/-20%, POSCAP Series | Panasonic Electronic Components 6TPE220MAP"
+			(at 241.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part Number" "PXTE010M477E060STU"
+			(at 241.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C724264"
+			(at 241.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
+			(at 241.3 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8100c43e-3397-4d4d-a0bc-357751f11c5c")
+		)
+		(pin "1"
+			(uuid "57c3ba5b-fcd8-4354-bf2a-a76d39da7809")
+		)
+		(instances
+			(project "list-tap"
+				(path "/9a2cc030-87ff-40fd-b779-afacc0376da8"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -17392,6 +18730,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 328.93 260.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3f8d7369-6092-41c2-a956-df3d77cd6166")
 		)
@@ -17419,7 +18768,7 @@
 		(dnp no)
 		(uuid "eec55b5b-3166-4515-8f32-fd3c69677c3f")
 		(property "Reference" "B2"
-			(at 232.41 81.026 90)
+			(at 218.694 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17430,7 +18779,7 @@
 			)
 		)
 		(property "Value" "PESD5V5C1BLYL(TP)"
-			(at 232.918 88.392 90)
+			(at 227.076 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17497,6 +18846,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 226.06 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 226.06 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -17679,6 +19039,17 @@
 				)
 			)
 		)
+		(property "LCSC No" ""
+			(at 224.79 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c9485ba-8ba0-4383-85d2-a2e5d23aaca2")
 		)
@@ -17779,6 +19150,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 41.91 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -17892,6 +19274,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 306.07 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC No" ""
 			(at 306.07 116.84 90)
 			(hide yes)
 			(show_name no)
